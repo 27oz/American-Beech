@@ -1,0 +1,9 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "f",
+  "main": "index.js",
+  "repository": "git@github.com:27oz/American-Beech.git",
+  "author": "27oz LLC",
+  "license": "MIT"
+}
