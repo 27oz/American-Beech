@@ -3,7 +3,22 @@
   "version": "1.0.0",
   "description": "f",
   "main": "index.js",
+  "engines": {
+    "node": "8.4.0",
+    "npm": "5.6.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
   "repository": "git@github.com:27oz/American-Beech.git",
   "author": "27oz LLC",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2",
+    "nodemon": "^1.14.11"
+  }
 }
